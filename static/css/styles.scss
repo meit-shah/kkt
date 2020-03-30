@@ -1,0 +1,105 @@
+$primary-brand-color: #FBB3B2;
+$secondary-brand-color: #3F3D56;
+
+section{
+    padding: 6rem 0rem 6rem 0;
+}
+
+.section-header {
+    font-size: 3.1rem;
+    color:$primary-brand-color;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-paragraph {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
+
+.section-button {
+    padding: 1rem 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.primary-brand-color {
+    color: $primary-brand-color;
+}
+
+.secondary-brand-color{
+    color: $secondary-brand-color;
+}
+
+.bg-primary-brand-color {
+    background: $primary-brand-color;
+}
+
+.bg-secondary-brand-color {
+    background: $secondary-brand-color;
+}
+
+.b--primary {
+    border: 1px solid $primary-brand-color;
+}
+
+.b--secondary {
+    border: 1px solid $secondary-brand-color;
+}
+
+.address-title {
+    font-weight:bold;
+    font-size: 2rem;
+    color: $secondary-brand-color;
+}
+
+.full-address {
+    font-weight: thin;
+    padding: 1rem 0;
+    font-size: 1.25rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.bg-near-white {
+    background: #f4f4f4;
+} 
+
+@media only screen and (max-width: 1023px) {
+    .banner-title {
+        font-size: 2.75rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    section {
+        padding: 4.5rem 0 3rem 0;
+    }
+
+    .section-header {
+        margin-top: 1rem;
+        font-size: 2.75rem;
+    }
+
+    .section-button {
+        width: 100% !important;
+    }
+
+    #where-are-we .section-header, #become-volunteer .section-header {
+        text-align: center;
+    }
+    
+    section#become-volunteer {
+        padding-top: 0rem;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+    .section-header {
+        font-size: 2.75rem;
+    }
+}
